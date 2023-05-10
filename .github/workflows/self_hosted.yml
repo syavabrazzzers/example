@@ -1,0 +1,10 @@
+name: Local runner test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  testRunner:
+    runs-on: [self-hosted]
+    steps:
+      - uses: syavabrazzzers/test_self-hosted_app@main
